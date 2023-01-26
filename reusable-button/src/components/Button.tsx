@@ -54,11 +54,11 @@ const Button: React.FunctionComponent<Props> = ({
 			: color === "secondary" && variant === "outline"
 			? "hover:bg-[#455A64]/30 focus:bg-[#1C313A]/30 text-[#1C313A]  border-[#1C313A] "
 			: color === "danger" && variant === "outline"
-			? "hover:bg-[#D32F2F]/50 focus:bg-[#9A0007]/50 text-[#9A0007] border-[#9A0007]"
+			? "hover:bg-[#D32F2F]/50 focus:bg-[#D32F2F]/50 text-[#9A0007] border-[#9A0007]"
 			: color === "secondary" && variant === "text"
-			? "hover:bg-[#455A64]/30 focus:bg-[#1C313A]/30 text-[#1C313A]  border-[#1C313A] "
+			? "hover:bg-[#455A64]/30 focus:bg-[#1C313A]/30 text-[#1C313A]"
 			: color === "danger" && variant === "text"
-			? "hover:bg-[#D32F2F]/50 focus:bg-[#9A0007]/50 text-[#D32F2F]"
+			? "hover:bg-[#D32F2F]/50 focus:bg-[#D32F2F]/50 text-[#9A0007]"
 			: "";
 
 	return (
