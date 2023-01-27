@@ -3,11 +3,11 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
 	return (
-		<div className=" flex h-screen w-screen items-center justify-start">
-			<div>
+		<div className=" flex h-screen w-screen items-center">
+			<div className="">
 				<Sidebar />
 			</div>
-			<div className="">
+			<div className="w-full">
 				<ButtonPage />
 			</div>
 		</div>

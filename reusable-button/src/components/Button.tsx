@@ -63,7 +63,7 @@ const Button: React.FunctionComponent<Props> = ({
 
 	return (
 		<button
-			className={`${className} ${disabledClass} ${sizeClass} ${disabledShadowClass} ${colorClass}`}
+			className={`${className} ${disabledClass} ${sizeClass} ${disabledShadowClass} ${colorClass} w-fit`}
 			onClick={onClick}
 		>
 			{icon && iconPosition === "start" && (
